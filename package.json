@@ -1,0 +1,19 @@
+{
+    "name": "fastify",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "fastify": "^4.17.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.1.2",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}

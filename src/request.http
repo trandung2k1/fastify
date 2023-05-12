@@ -1,0 +1,24 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "username": "TranDung",
+    "email": "trandungksnb00@gmail.com",
+    "password": "trandung"
+}
+
+###
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "username": "TranDung2001",
+    "email": "trandungksnb002001@gmail.com",
+    "password": "trandung"
+}
+
+###
+GET http://localhost:4000/users
+
+###
+GET http://localhost:4000
